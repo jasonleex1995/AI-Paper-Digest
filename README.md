@@ -12,7 +12,7 @@
 **AnomalyCLIP: Object-agnostic Prompt Learning for Zero-shot Anomaly Detection**  
 *ICLR 2024*, [arxiv](https://arxiv.org/abs/2310.18961), [review](https://openreview.net/forum?id=buC4E91xZE), [code](https://github.com/zqhang/AnomalyCLIP), [summary](https://jasonleex1995.github.io/docs/07_papers/2310.18961.html)  
 Task: zero-shot anomaly detection (ZSAD)  
-Previous works used CLIP with object-aware text prompts.  
+Previous works use CLIP with object-aware text prompts.  
 Even though the foreground object semantics can be completely different, anomaly patterns remain quite similar.  
 Thus, learning object-agnostic text prompts is the key for ZSAD.  
 
@@ -22,7 +22,8 @@ Thus, learning object-agnostic text prompts is the key for ZSAD.
 *CVPR 2022*, [arxiv](https://arxiv.org/abs/2203.12691), [code](https://github.com/carolineec/informative-drawings), [website](https://carolineec.github.io/informative_drawings/)  
 Task: automatic line generation  
 View line drawing generation as an unsupervised image translation problem, which means training models with unpaired data.  
-Use 4 losses to improve quality: adversarial loss (LSGAN), geometry loss (pseudo depth map), semantic loss (CLIP), appearance loss (cycle consistency).  
+Most previous works solely consider preserving photographic appearence through cycle consistency.  
+Instead, use 4 losses to improve quality: adversarial loss (LSGAN), geometry loss (pseudo depth map), semantic loss (CLIP), appearance loss (cycle consistency).  
 
 
 
