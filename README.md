@@ -18,6 +18,14 @@ Thus, learning object-agnostic text prompts is the key for ZSAD.
 
 
 
+**Learning to generate line drawings that convey geometry and semantics**  
+*CVPR 2022*, [arxiv](https://arxiv.org/abs/2203.12691), [code](https://github.com/carolineec/informative-drawings), [website](https://carolineec.github.io/informative_drawings/)  
+Task: automatic line generation  
+View line drawing generation as an unsupervised image translation problem, which means training models with unpaired data.  
+Use 4 losses to improve quality: adversarial loss (LSGAN), geometry loss (pseudo depth map), semantic loss (CLIP), appearance loss (cycle consistency).  
+
+
+
 **Generalisation in humans and deep neural networks**    
 *NeurIPS 2018*, 
 [arxiv](https://arxiv.org/abs/1808.08750), [review](https://papers.nips.cc/paper_files/paper/2018/hash/0937fb5864ed06ffb59ae5f9b5ed67a9-Abstract.html), [code](https://github.com/rgeirhos/generalisation-humans-DNNs), [summary](https://jasonleex1995.github.io/docs/07_papers/1808.08750.html)  
