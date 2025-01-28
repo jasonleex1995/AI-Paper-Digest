@@ -14,7 +14,7 @@
 Task: zero-shot anomaly detection (ZSAD)  
 Previous works use CLIP with object-aware text prompts.  
 Even though the foreground object semantics can be completely different, anomaly patterns remain quite similar.  
-Thus, learning object-agnostic text prompts is the key for ZSAD.  
+Thus, use CLIP with learnable object-agnostic text prompts.  
 
 
 
