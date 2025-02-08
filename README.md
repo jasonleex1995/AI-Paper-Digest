@@ -9,6 +9,18 @@
 
 
 
+**Ferret-UI: Grounded Mobile UI Understanding with Multimodal LLMs**  
+*ECCV 2024*, [arxiv](https://arxiv.org/abs/2404.05719), [code](https://github.com/apple/ml-ferret)  
+Task: referring, grounding, and reasoning on mobile user interface (UI) screens  
+Directly adapting Multimodal Large Language Models (MLLMs) to UI screens can be limiting, since UI screens typically exhibit more elongated aspect ratios and contain smaller objects of interests than natural images.  
+Incorporate "any resolution" (anyres) on top of Ferret, and then train with curated dataset.  
+During training, both the decoder and the projection layer are updated while the vision encoder is kept frozen.  
+Referring tasks: widget classification, icon recognition, OCR  
+Grounding tasks: find widget, find icon, find text, widget listing  
+Reasoning tasks: detailed description, perception conversation, interaction conversation, function inference  
+
+
+
 **AnomalyCLIP: Object-agnostic Prompt Learning for Zero-shot Anomaly Detection**  
 *ICLR 2024*, [arxiv](https://arxiv.org/abs/2310.18961), [review](https://openreview.net/forum?id=buC4E91xZE), [code](https://github.com/zqhang/AnomalyCLIP), [summary](https://jasonleex1995.github.io/docs/07_papers/2310.18961.html)  
 Task: zero-shot anomaly detection (ZSAD)  
@@ -50,9 +62,9 @@ DNNs generalize so poorly under non-i.i.d. settings.
 ```
 format
 
-⋅ ⋅  
 **paper title**  
 *accept info*, [arxiv](), [review](), [code](), [website](), [summary]()  
+Task:  
 super-brief summary
 
 ```
