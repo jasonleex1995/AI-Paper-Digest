@@ -12,10 +12,9 @@
 > **Ferret-UI: Grounded Mobile UI Understanding with Multimodal LLMs**  
 > *ECCV 2024*, [arxiv](https://arxiv.org/abs/2404.05719), [code](https://github.com/apple/ml-ferret)  
 > Task: referring, grounding, and reasoning on mobile UI screens  
-> 
-> Directly adapting MLLMs to UI screens has limitation, since UI screens exhibit more elongated aspect ratios and contain smaller objects of interests than natural images.  
-> Incorporate "any resolution" (anyres) on top of Ferret, and then train with curated dataset.  
-> During training, both the decoder and the projection layer are updated while the vision encoder is kept frozen.  
+> - Directly adapting MLLMs to UI screens has limitation, since UI screens exhibit more elongated aspect ratios and contain smaller objects of interests than natural images.  
+> - Incorporate "any resolution" (anyres) on top of Ferret, and then train with curated dataset.  
+> - During training, both the decoder and the projection layer are updated while the vision encoder is kept frozen.  
 
 
 
@@ -23,9 +22,9 @@
 > *ICLR 2024*, [arxiv](https://arxiv.org/abs/2310.18961), [review](https://openreview.net/forum?id=buC4E91xZE), [code](https://github.com/zqhang/AnomalyCLIP), [summary](https://jasonleex1995.github.io/docs/07_papers/2310.18961.html)  
 > Task: zero-shot anomaly detection (ZSAD)  
 > 
-> Previous works use CLIP with object-aware text prompts.  
-> Even though the foreground object semantics can be completely different, anomaly patterns remain quite similar.  
-> Thus, use CLIP with learnable object-agnostic text prompts.  
+> - Previous works use CLIP with object-aware text prompts.  
+> - Even though the foreground object semantics can be completely different, anomaly patterns remain quite similar.  
+> - Thus, use CLIP with learnable object-agnostic text prompts.  
 
 
 
