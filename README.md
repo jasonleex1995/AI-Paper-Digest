@@ -41,11 +41,11 @@
 
 
 > **Learning to generate line drawings that convey geometry and semantics**  
-> *CVPR 2022*, [arxiv](https://arxiv.org/abs/2203.12691), [code](https://github.com/carolineec/informative-drawings), [website](https://carolineec.github.io/informative_drawings/)  
+> *CVPR 2022*, [arxiv](https://arxiv.org/abs/2203.12691), [website](https://carolineec.github.io/informative_drawings/), [code](https://github.com/carolineec/informative-drawings)  
 > Task: automatic line generation  
 > 
 > - View line drawing generation as an unsupervised image translation problem, which means training models with unpaired data.  
-> - Most previous works solely consider preserving photographic appearence through cycle consistency.  
+> - Previous works solely consider preserving photographic appearence through cycle consistency.  
 > - Instead, use 4 losses to improve quality: adversarial loss (LSGAN), geometry loss (pseudo depth map), semantic loss (CLIP), appearance loss (cycle consistency).  
 
 
@@ -65,7 +65,7 @@
 format
 
 > **paper title**  
-> *accept info*, [arxiv](), [review](), [code](), [website](), [summary]()  
+> *accept info*, [arxiv](), [review](), [website](), [code](), [summary]()  
 > Task:  
 > 
 > - super-brief summary
