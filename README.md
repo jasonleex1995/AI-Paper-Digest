@@ -40,6 +40,16 @@
 
 
 
+> **DreamBooth: Fine Tuning Text-to-Image Diffusion Models for Subject-Driven Generation**  
+> *CVPR 2023 Award Candidate*, [arxiv](https://arxiv.org/abs/2208.12242), [website](https://dreambooth.github.io/), [code](https://github.com/google/dreambooth), [summary](https://jasonleex1995.github.io/docs/07_papers/2208.12242.html)  
+> Task: subject-driven image generation  
+> 
+> - Recently developed large T2I diffusion models can generate high-quality and diverse photorealistic images.  
+> - However, these models lack the ability to mimic the appearance of subjects in a given reference set.  
+> - Generate novel photorealistic images of the subject contextualized in different scenes via fine-tuning with rare tokens and class-specific prior preservation loss.  
+
+
+
 > **Learning to generate line drawings that convey geometry and semantics**  
 > *CVPR 2022*, [arxiv](https://arxiv.org/abs/2203.12691), [website](https://carolineec.github.io/informative_drawings/), [code](https://github.com/carolineec/informative-drawings)  
 > Task: automatic line generation  
