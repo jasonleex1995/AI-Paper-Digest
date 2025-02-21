@@ -50,6 +50,17 @@
 
 
 
+> **An Image is Worth One Word: Personalizing Text-to-Image Generation using Textual Inversion**  
+> *ICLR 2023 Spotlight*, [arxiv](https://arxiv.org/abs/2208.01618), [review](https://openreview.net/forum?id=NAQvF08TcyG), [website](https://textual-inversion.github.io/), [code](https://github.com/rinongal/textual_inversion), [summary](https://jasonleex1995.github.io/docs/07_papers/2208.01618.html)  
+> Task: personalized text-to-image generation  
+> 
+> - Recently, large-scale T2I models have demonstrated an unprecedented capability to reason over natural language descriptions.  
+> - However, generating a desired target, such as user-specific concept, through text is quite difficult.  
+> - Training T2I models have several limitations.  
+> - Generate novel photorealistic images of the subject via optimizing only a single word embedding.  
+
+
+
 > **Learning to generate line drawings that convey geometry and semantics**  
 > *CVPR 2022*, [arxiv](https://arxiv.org/abs/2203.12691), [website](https://carolineec.github.io/informative_drawings/), [code](https://github.com/carolineec/informative-drawings)  
 > Task: automatic line generation  
