@@ -71,6 +71,14 @@
 
 
 
+> **SDEdit: Guided Image Synthesis and Editing with Stochastic Differential Equations**  
+> *ICLR 2022*, [arxiv](https://arxiv.org/abs/2108.01073), [review](https://openreview.net/forum?id=aBsCjcPu_tE), [website](https://sde-image-editing.github.io/), [code](https://github.com/ermongroup/SDEdit), [summary](https://jasonleex1995.github.io/docs/07_papers/2108.01073.html)  
+> Task: guided image synthesis & editing  
+> 
+> - super-brief summary
+
+
+
 > **Generalisation in humans and deep neural networks**    
 > *NeurIPS 2018*, [arxiv](https://arxiv.org/abs/1808.08750), [review](https://papers.nips.cc/paper_files/paper/2018/hash/0937fb5864ed06ffb59ae5f9b5ed67a9-Abstract.html), [code](https://github.com/rgeirhos/generalisation-humans-DNNs), [summary](https://jasonleex1995.github.io/docs/07_papers/1808.08750.html)  
 > Task: understanding the differences between DNNs and humans   
