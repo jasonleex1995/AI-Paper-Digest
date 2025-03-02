@@ -75,7 +75,10 @@
 > *ICLR 2022*, [arxiv](https://arxiv.org/abs/2108.01073), [review](https://openreview.net/forum?id=aBsCjcPu_tE), [website](https://sde-image-editing.github.io/), [code](https://github.com/ermongroup/SDEdit), [summary](https://jasonleex1995.github.io/docs/07_papers/2108.01073.html)  
 > Task: guided image synthesis & editing  
 > 
-> - super-brief summary
+> - Previous works on guided image synthesis or editing: conditional GANs or GAN inversions  
+> - Conditional GANs require collecting training images and training per task.  
+> - GAN inversions require task-specific loss design.  
+> - Generate realistic images by adding small noise and denoising with score-based models trained on the target domain.  
 
 
 
