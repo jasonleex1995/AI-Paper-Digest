@@ -40,6 +40,16 @@
 
 
 
+> **Adding Conditional Control to Text-to-Image Diffusion Models**  
+> *ICCV 2023 Oral*, [arxiv](https://arxiv.org/abs/2302.05543), [code](https://github.com/lllyasviel/ControlNet), [summary](https://jasonleex1995.github.io/docs/07_papers/2302.05543.html)  
+> Task: image-based conditional image generation  
+> 
+> - T2I models struggle with fine-grained spatial control.  
+> - Incorporate additional images as conditioning inputs to generate images with spatial control.  
+> - Fine-tuning a trainable copy of a T2I diffusion model connected with zero convolution.  
+
+
+
 > **DreamBooth: Fine Tuning Text-to-Image Diffusion Models for Subject-Driven Generation**  
 > *CVPR 2023 Award Candidate*, [arxiv](https://arxiv.org/abs/2208.12242), [website](https://dreambooth.github.io/), [code](https://github.com/google/dreambooth), [summary](https://jasonleex1995.github.io/docs/07_papers/2208.12242.html)  
 > Task: subject-driven image generation  
