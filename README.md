@@ -9,6 +9,17 @@
 
 
 
+> **Identity Decoupling for Multi-Subject Personalization of Text-to-Image Models**  
+> *NeurIPS 2024*, [arxiv](https://arxiv.org/abs/2404.04243), [review](https://openreview.net/forum?id=tEEpVPDaRf), [website](https://mudi-t2i.github.io/), [code](https://github.com/agwmon/MuDI)  
+> Task: multi-subject personalization  
+> 
+> - Previous works on personalization suffer from identity mixing when composing multiple subjects.  
+> - During training, use detailed descriptions and Seg-Mix augmentation, which randomly composes segmented subjects.  
+> - During inference, use mean-shifted noise instead of Gaussian noise, which use the segmented subjects to initialize.  
+> - Propose new metric Detect-and-Compare (D&C) to evaluate multi-subject fidelity.  
+
+
+
 > **Ferret-UI: Grounded Mobile UI Understanding with Multimodal LLMs**  
 > *ECCV 2024*, [arxiv](https://arxiv.org/abs/2404.05719), [code](https://github.com/apple/ml-ferret)  
 > Task: referring, grounding, and reasoning on mobile UI screens  
