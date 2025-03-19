@@ -51,6 +51,16 @@
 
 
 
+> **Diffusion Policy: Visuomotor Policy Learning via Action Diffusion**  
+> *RSS 2023*, [arxiv](https://arxiv.org/abs/2303.04137), [website](https://diffusion-policy.cs.columbia.edu/), [code](https://github.com/real-stanford/diffusion_policy)  
+> Task: robot manipulation via behavior cloning  
+> 
+> - Due to unique nature of predicting robot actions (ex. multimodal action distributions, sequential correlation, requirement of high precision), policy learning from demonstration is more challenging than other supervised learning problems.  
+> - Diffusion models can represent multimodal distributions, scale to high-dimension output spaces, and achieve stable training while maintaining expressivity.  
+> - Propose Diffusion policy, which is conditioned on visual representation and predicts high-dimensional action sequences.
+
+
+
 > **Adding Conditional Control to Text-to-Image Diffusion Models**  
 > *ICCV 2023 Oral*, [arxiv](https://arxiv.org/abs/2302.05543), [code](https://github.com/lllyasviel/ControlNet), [summary](https://jasonleex1995.github.io/docs/07_papers/2302.05543.html)  
 > Task: image-based conditional image generation  
