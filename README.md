@@ -92,6 +92,16 @@
 
 
 
+> **Do As I Can, Not As I Say: Grounding Language in Robotic Affordances**  
+> *CoRL 2022 Oral*, [arxiv](https://arxiv.org/abs/2204.01691), [review](https://openreview.net/forum?id=bdHkMjBJG_w), [website](https://say-can.github.io/), [code](https://github.com/google-research/google-research/tree/master/saycan)  
+> Task: robot manipulation and navigation  
+> 
+> - How can we enable robots to perform complex tasks in the real world?  
+> - Propose SayCan: given pre-trained low-level skills, an LLM (Say) determines useful actions for a high-level goal, and a learned affordance function (Can) determines whether action is possible to execute in the current state.  
+> - Only train affordance function using reinforcement learning (RL).  
+
+
+
 > **Learning to generate line drawings that convey geometry and semantics**  
 > *CVPR 2022*, [arxiv](https://arxiv.org/abs/2203.12691), [website](https://carolineec.github.io/informative_drawings/), [code](https://github.com/carolineec/informative-drawings)  
 > Task: automatic line generation  
