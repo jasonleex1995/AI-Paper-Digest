@@ -51,6 +51,16 @@
 
 
 
+> **RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control**  
+> *CoRL 2023*, [arxiv](https://arxiv.org/abs/2307.15818), [review](https://openreview.net/forum?id=XMQgwiJ7KSX), [website](https://robotics-transformer2.github.io/)  
+> Task: robot manipulation  
+> 
+> - Previous works primarily used LLMs and VLMs for high-level robot planning.  
+> - Propose RT-2, which directly integrates large pre-trained VLMs into low-level robot control.
+> - Two core methods: tokenizing the actions into text tokens & co-fine-tuning robotics data with the original web data.  
+
+
+
 > **Diffusion Policy: Visuomotor Policy Learning via Action Diffusion**  
 > *RSS 2023*, [arxiv](https://arxiv.org/abs/2303.04137), [website](https://diffusion-policy.cs.columbia.edu/), [code](https://github.com/real-stanford/diffusion_policy)  
 > Task: robot manipulation via behavior cloning  
