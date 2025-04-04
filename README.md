@@ -8,6 +8,16 @@
 ---
 
 
+> **Vision-Language Models Do Not Understand Negation**  
+> *CVPR 2025*, [arxiv](https://arxiv.org/abs/2501.09425), [website](https://negbench.github.io/), [code](https://github.com/m1k2zoo/negbench)  
+> Task: understanding how well VLMs handle negation  
+> 
+> - How well do current VLMs understand negation?  
+> - To comprehensively evaluate how well VLMs handle negation, propose NegBench.  
+> - Joint embedding-based VLMs, such as CLIP, frequently collapse affirmative and negated statements into similar embeddings.  
+> - Data-centric approach is effective: fine-tuning CLIP-based models on large-scale datasets containing millions of negated captions.  
+
+
 
 > **Identity Decoupling for Multi-Subject Personalization of Text-to-Image Models**  
 > *NeurIPS 2024*, [arxiv](https://arxiv.org/abs/2404.04243), [review](https://openreview.net/forum?id=tEEpVPDaRf), [website](https://mudi-t2i.github.io/), [code](https://github.com/agwmon/MuDI)  
