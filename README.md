@@ -91,6 +91,16 @@
 
 
 
+> **Learning Universal Policies via Text-Guided Video Generation**  
+> *NeurIPS 2023 Spotlight*, [arxiv](https://arxiv.org/abs/2302.00111), [review](https://openreview.net/forum?id=bo8q5MRcwy), [website](https://universal-policy.github.io/unipi/)  
+> Task: robot manipulation  
+> 
+> - Challenges of training robots: environmental diversity due to joint modeling of space & controls.  
+> - Propose Universal Policy (UniPi): cast the sequential decision making problem as a text-conditioned video generation problem.  
+> - Plans actions by generating a video for a desired goal, then infers control actions using an inverse dynamics model.  
+
+
+
 > **DreamBooth: Fine Tuning Text-to-Image Diffusion Models for Subject-Driven Generation**  
 > *CVPR 2023 Award Candidate*, [arxiv](https://arxiv.org/abs/2208.12242), [website](https://dreambooth.github.io/), [code](https://github.com/google/dreambooth), [summary](https://jasonleex1995.github.io/docs/07_papers/2208.12242.html)  
 > Task: subject-driven image generation  
