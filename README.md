@@ -111,6 +111,16 @@
 
 
 
+> **Prompt-to-Prompt Image Editing with Cross Attention Control**  
+> *ICLR 2023 Spotlight*, [arxiv](https://arxiv.org/abs/2208.01626), [review](https://openreview.net/forum?id=_CDixzkzeyb), [website](https://prompt-to-prompt.github.io/), [code](https://github.com/google/prompt-to-prompt/), [summary](https://jasonleex1995.github.io/docs/07_papers/2208.01626.html)  
+> Task: text-driven image editing  
+> 
+> - Previous works use spatial mask to edit an image.  
+> - These methods generate unsatisfactory results caused by ignoring the original structure and content within the masked region.  
+> - Propose Prompt-to-Propmt, a text-driven image editing by injecting the cross-attention maps of original prompt to the cross-attention maps of edited prompt.  
+
+
+
 > **An Image is Worth One Word: Personalizing Text-to-Image Generation using Textual Inversion**  
 > *ICLR 2023 Spotlight*, [arxiv](https://arxiv.org/abs/2208.01618), [review](https://openreview.net/forum?id=NAQvF08TcyG), [website](https://textual-inversion.github.io/), [code](https://github.com/rinongal/textual_inversion), [summary](https://jasonleex1995.github.io/docs/07_papers/2208.01618.html)  
 > Task: personalized text-to-image generation  
