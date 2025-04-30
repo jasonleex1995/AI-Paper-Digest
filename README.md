@@ -19,6 +19,17 @@
 
 
 
+> **ArtiFade: Learning to Generate High-quality Subject from Blemished Images**  
+> *CVPR 2025*, [arxiv](https://arxiv.org/abs/2409.03745)  
+> Task: blemished subject-driven generation  
+> 
+> - Current subject-driven T2I methods are vulnerable to artifacts such as watermarks, stickers, or adversarial noise.  
+> - This limitation arises because current methods lack the discriminative power to distinguish subject-related features from disruptive artifacts.  
+> - Propose ArtiFade, which generates high-quality artifact-free images from blemished datasets.  
+> - Core method: artifact rectification training, which first reconstructs the blemished image and then learns to rectify it into an unblemished version.  
+
+
+
 > **Identity Decoupling for Multi-Subject Personalization of Text-to-Image Models**  
 > *NeurIPS 2024*, [arxiv](https://arxiv.org/abs/2404.04243), [review](https://openreview.net/forum?id=tEEpVPDaRf), [website](https://mudi-t2i.github.io/), [code](https://github.com/agwmon/MuDI)  
 > Task: multi-subject personalization  
