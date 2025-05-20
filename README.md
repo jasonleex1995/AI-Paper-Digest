@@ -30,6 +30,19 @@
 
 
 
+> **Detecting, Explaining, and Mitigating Memorization in Diffusion Models**  
+> *ICLR 2024 Oral*, [arxiv](https://arxiv.org/abs/2407.21720), [review](https://openreview.net/forum?id=84n3UwkH7b), [code](https://github.com/YuxinWenRick/diffusion_memorization)  
+> Task: detect and mitigate memorization in diffusion models  
+> 
+> - For memorized prompts, the text condition consistently guides the generation towards the memorized solution, regardless of the initializations.  
+> - Thus, memorized prompts tend to exhibit larger magnitudes than non-memorized ones.  
+> - Detect memorization: $$\epsilon_{\theta}(x_t, e_{prompt}) - \epsilon_{\theta}(x_t, e_{\phi})$$.  
+> - Detect trigger tokens: $$\nabla_{e^{token}} \left\| \epsilon_{\theta}(x_t, e_{prompt}) - \epsilon_{\theta}(x_t, e_{\phi}) \right\|$$.  
+> - Inference-time mitigation: minimize the magnitude of text-conditional noise prediction at the initial timestep.  
+> - Training-time mitigation: exclude samples if the magnitude of text-conditional noise prediction surpasses a predetermined threshold.  
+
+
+
 > **Identity Decoupling for Multi-Subject Personalization of Text-to-Image Models**  
 > *NeurIPS 2024*, [arxiv](https://arxiv.org/abs/2404.04243), [review](https://openreview.net/forum?id=tEEpVPDaRf), [website](https://mudi-t2i.github.io/), [code](https://github.com/agwmon/MuDI)  
 > Task: multi-subject personalization  
