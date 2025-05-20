@@ -37,7 +37,7 @@
 > - For memorized prompts, the text condition consistently guides the generation towards the memorized solution, regardless of the initializations.  
 > - Thus, memorized prompts tend to exhibit larger magnitudes than non-memorized ones.  
 > - Detect memorization: $$\epsilon_{\theta}(x_t, e_{prompt}) - \epsilon_{\theta}(x_t, e_{\phi})$$.  
-> - Detect trigger tokens: $$\nabla_{e^{token}} \parallel \epsilon_{\theta}(x_t, e_{prompt}) - \epsilon_{\theta}(x_t, e_{\phi}) \parallel$$.  
+> - Detect trigger tokens: $$\parallel \nabla_{e^{token}} \parallel \epsilon_{\theta}(x_t, e_{prompt}) - \epsilon_{\theta}(x_t, e_{\phi}) \parallel_2 \parallel_2$$.  
 > - Inference-time mitigation: minimize the magnitude of text-conditional noise prediction at the initial timestep.  
 > - Training-time mitigation: exclude samples if the magnitude of text-conditional noise prediction surpasses a predetermined threshold.  
 
