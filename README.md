@@ -8,6 +8,18 @@
 ---
 
 
+
+> **Dual Prompting Image Restoration with Diffusion Transformers**  
+> *CVPR 2025*, [arxiv](https://arxiv.org/abs/2504.17825)  
+> Task: image restoration  
+> 
+> - Diffusion Transformers (DiTs) recently show promising generative capabilities.  
+> - However, effectively incorporating low-quality (LQ) image information into DiTs remains underexplored.  
+> - Propose Dual Prompting Image Restoration (DPIR), which effectively integrate control signals from LQ images into the DiT.  
+> - 3 key components: degradation-robust VAE encoder, low-quality image conditioning branch, dual prompting control branch.  
+
+
+
 > **Vision-Language Models Do Not Understand Negation**  
 > *CVPR 2025*, [arxiv](https://arxiv.org/abs/2501.09425), [website](https://negbench.github.io/), [code](https://github.com/m1k2zoo/negbench)  
 > Task: understanding how well VLMs handle negation  
