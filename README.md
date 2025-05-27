@@ -107,6 +107,17 @@
 
 
 
+> **Understanding and Mitigating Copying in Diffusion Models**  
+> *NeurIPS 2023*, [arxiv](https://arxiv.org/abs/2305.20086), [review](https://openreview.net/forum?id=HtMXRGbUMt), [code](https://github.com/somepago/DCR)  
+> Task: analyze and mitigate memorization in T2I diffusion models  
+> 
+> - Previous works show that duplicate images in the training set cause memorization in diffusion models.  
+> - Reveals that text conditioning plays a major role in memorization.  
+> - Inference-time mitigation: use random token replacement or addition strategy, where random tokens are randomly added or replaced into the text prompt.  
+> - Train-time mitigation: use multiple caption strategy, where each image has diverse captions and caption is randomly sampled during training.  
+
+
+
 > **Diffusion Policy: Visuomotor Policy Learning via Action Diffusion**  
 > *RSS 2023*, [arxiv](https://arxiv.org/abs/2303.04137), [website](https://diffusion-policy.cs.columbia.edu/), [code](https://github.com/real-stanford/diffusion_policy)  
 > Task: robot manipulation via behavior cloning  
