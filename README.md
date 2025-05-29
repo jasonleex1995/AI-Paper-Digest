@@ -87,7 +87,7 @@
 
 
 > **Tiny and Efficient Model for the Edge Detection Generalization**  
-> *ICCV 2023 Workshop (Resource Efficient Deep Learning for Computer Vision)*, [arxiv](https://arxiv.org/abs/2308.06468), [code](https://github.com/xavysp/TEED)   
+> *ICCV 2023 Workshop*, [arxiv](https://arxiv.org/abs/2308.06468), [code](https://github.com/xavysp/TEED)   
 > Task: edge detection  
 > 
 > - Propose simple, efficient, and robust CNN model: Tiny and Efficient Edge Detector (TEED).  
@@ -217,6 +217,17 @@
 > - Compare the robustness of humans and DNNs (VGG, GoogLeNet, ResNet) on object recognition under 12 different image distortions.  
 > - Human visual system is more robust than DNNs.  
 > - DNNs generalize so poorly under non-i.i.d. settings.  
+
+
+
+> **Enhanced Deep Residual Networks for Single Image Super-Resolution**  
+> *CVPR 2017 Workshop*, [arxiv](https://arxiv.org/abs/1707.02921), [code](https://github.com/limbee/NTIRE2017)  
+> Task: single-image super-resolution  
+> 
+> - Propose two network architectures: enhanced deep super-resolution network (EDSR) for single-scale & multi-scale deep super-resolution system (MDSR) for multi-scale  
+> - 3 core methods: remove batch normalization layers, increase model size, and use L1 loss.  
+> - Input and output have similar distributions → remove batch normalization layers.  
+> - Increasing model size improves performance, but leads to training instability → use residual scaling.  
 
 
 
