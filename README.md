@@ -17,6 +17,8 @@
 > - However, effectively incorporating low-quality (LQ) image information into DiTs remains underexplored.  
 > - Propose Dual Prompting Image Restoration (DPIR), which effectively integrate control signals from LQ images into the DiT.  
 > - 3 key components: degradation-robust VAE encoder, low-quality image conditioning branch, dual prompting control branch.  
+> - Low-quality image conditioning: use VAE latent of LQ image for conditioning.  
+> - Dual prompting control: use VAE output of LQ image for prompt instead of text.  
 
 
 
@@ -48,10 +50,8 @@
 > 
 > - For memorized prompts, the text condition consistently guides the generation towards the memorized solution, regardless of the initializations.  
 > - Thus, memorized prompts tend to exhibit larger magnitudes than non-memorized ones.  
-> - Detect memorization: $$\epsilon_{\theta}(x_t, e_{prompt}) - \epsilon_{\theta}(x_t, e_{\phi})$$.  
-> - Detect trigger tokens: $$\parallel \nabla_{e^{token}} \parallel \epsilon_{\theta}(x_t, e_{prompt}) - \epsilon_{\theta}(x_t, e_{\phi}) \parallel_2 \parallel_2$$.  
-> - Inference-time mitigation: minimize the magnitude of text-conditional noise prediction at the initial timestep.  
-> - Training-time mitigation: exclude samples if the magnitude of text-conditional noise prediction surpasses a predetermined threshold.  
+> - Use $$\epsilon_{\theta}(x_t, e_{prompt}) - \epsilon_{\theta}(x_t, e_{\phi})$$ to detect and mitigate memorization.  
+> - Detect trigger tokens by measure the influence of $$\epsilon_{\theta}(x_t, e_{prompt}) - \epsilon_{\theta}(x_t, e_{\phi})$$ per each token.  
 
 
 
@@ -73,6 +73,16 @@
 > - Directly adapting MLLMs to UI screens has limitation, since UI screens exhibit more elongated aspect ratios and contain smaller objects of interests than natural images.  
 > - Incorporate "any resolution" (anyres) on top of Ferret, and then train with curated dataset.  
 > - During training, both the decoder and the projection layer are updated while the vision encoder is kept frozen.  
+
+
+
+> **Unveiling and Mitigating Memorization in Text-to-image Diffusion Models through Cross Attention**  
+> *ECCV 2024*, [arxiv](https://arxiv.org/abs/2403.11052), [code](https://github.com/renjie3/MemAttn)  
+> Task: detect and mitigate memorization in text-to-image diffusion models  
+> 
+> - Since memorized images are usually triggered by the memorized text prompts, cross attention can exhibit unique behaviors specific to memorization.  
+> - Memorized samples tend to allocate most of the attention to specific tokens throughout all the diffusion steps, where non-memorized samples have more dispersed attention distribution.  
+> - Thus, use entropy of attention to detect and mitigate memorization.  
 
 
 
