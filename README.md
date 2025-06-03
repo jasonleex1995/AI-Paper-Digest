@@ -33,6 +33,17 @@
 
 
 
+> **Classifier-Free Guidance inside the Attraction Basin May Cause Memorization**  
+> *CVPR 2025*, [arxiv](https://arxiv.org/abs/2411.16738), [code](https://github.com/anubhav1997/mitigating_memorization)  
+> Task: mitigate memorization in diffusion models  
+> 
+> - Applying classifier-free guidance (CFG) before a certain timestep (transition point) tends to produce memorized samples.  
+> - Applying CFG after the transition point is unlikely to yield a memorized image.  
+> - Although every prompt and initialization pair leads to a different transition point, the transition point can be found by identifying the first local minima of the graph of $$\epsilon_{\theta}(x_t, e_{prompt}) - \epsilon_{\theta}(x_t, e_{\phi})$$.  
+> - Propose Opposite Guidance (OG): apply opposite CFG until the transition point, and switch to traditional positive CFG after the transition point.  
+
+
+
 > **ArtiFade: Learning to Generate High-quality Subject from Blemished Images**  
 > *CVPR 2025*, [arxiv](https://arxiv.org/abs/2409.03745)  
 > Task: blemished subject-driven generation  
