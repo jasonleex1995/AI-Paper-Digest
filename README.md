@@ -22,6 +22,19 @@
 
 
 
+> **Uncertainty-guided Perturbation for Image Super-Resolution Diffusion Model**  
+> *CVPR 2025*, [arxiv](https://arxiv.org/abs/2503.18512), [code](https://github.com/LabShuHangGU/UPSR)  
+> Task: single image super-resolution  
+> 
+> - Previous diffusion-based SR methods inject a large initial noise into the LR image, which is not specialized and effective for SR.  
+> - Four core methods: Uncertainty-guided Noise Weighting (UNW), additional SR image conditioning, loss design, and network architecture design.  
+> - UNW: low noise in flat areas, large noise in edge and texture areas.  
+> - SR image conditioning: combine the pre-trained SR model output to provide more accurate conditional information.  
+> - Loss design: fidelity loss (RMSE) + perceptual loss (LPIPS)  
+> - Network archiecture design: encoder & decoder → PixelUnshuffle & nearest neighbor sampling.  
+
+
+
 > **Vision-Language Models Do Not Understand Negation**  
 > *CVPR 2025*, [arxiv](https://arxiv.org/abs/2501.09425), [website](https://negbench.github.io/), [code](https://github.com/m1k2zoo/negbench)  
 > Task: understanding how well VLMs handle negation  
