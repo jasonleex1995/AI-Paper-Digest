@@ -244,6 +244,17 @@
 
 
 
+> **Practical Single-Image Super-Resolution Using Look-Up Table**  
+> *accept info*, [paper](https://openaccess.thecvf.com/content/CVPR2021/html/Jo_Practical_Single-Image_Super-Resolution_Using_Look-Up_Table_CVPR_2021_paper.html), [code](https://github.com/yhjo09/SR-LUT)  
+> Task: single-image super-resolution  
+> 
+> - Deep learning based SR achieves good performance, but it is difficult to apply in practice without the special hardware (ex. GPU, TPU).  
+> - Propose SR-LUT: LUT-based SR achieving similar runtime but better performance compared to interpolation methods.  
+> - Train lightweight deep SR model with small receptive field, then make LUT using trained model.  
+> - To decrease memory space, save LUT with uniform sampling and inference using interpolation.  
+
+
+
 > **Generalisation in humans and deep neural networks**    
 > *NeurIPS 2018*, [arxiv](https://arxiv.org/abs/1808.08750), [review](https://papers.nips.cc/paper_files/paper/2018/hash/0937fb5864ed06ffb59ae5f9b5ed67a9-Abstract.html), [code](https://github.com/rgeirhos/generalisation-humans-DNNs), [summary](https://jasonleex1995.github.io/docs/07_papers/1808.08750.html)  
 > Task: understanding the differences between DNNs and humans   
