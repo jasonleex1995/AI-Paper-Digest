@@ -255,6 +255,21 @@
 
 
 
+> **Which Tasks Should Be Learned Together in Multi-task Learning?**  
+> *ICML 2020*, [arxiv](https://arxiv.org/abs/1905.07553), [review](https://openreview.net/forum?id=HJlTpCEKvS), [website](http://taskgrouping.stanford.edu/), [code](https://github.com/tstandley/taskgrouping)  
+> Task: multi-task learning  
+> 
+> - Empirical study of a number of factors that influence multi-task learning (MTL).  
+> - Many common assumptions do not seem to be true.
+>     - More similar tasks don't necessarily work better together
+>     - MTL doesn't necessarily work better when you have less data
+>     - Task relationships are not the same between settings.
+> - Task relationships are sensitive to dataset size, network capacity.  
+> - Training surface normal prediction task mostly improves the other task's performance.  
+> - Suggest task grouping framework, which assign tasks to networks to maximize performance while keeping the inference time to a given fixed budget.  
+
+
+
 > **Generalisation in humans and deep neural networks**    
 > *NeurIPS 2018*, [arxiv](https://arxiv.org/abs/1808.08750), [review](https://papers.nips.cc/paper_files/paper/2018/hash/0937fb5864ed06ffb59ae5f9b5ed67a9-Abstract.html), [code](https://github.com/rgeirhos/generalisation-humans-DNNs), [summary](https://jasonleex1995.github.io/docs/07_papers/1808.08750.html)  
 > Task: understanding the differences between DNNs and humans   
