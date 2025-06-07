@@ -261,10 +261,10 @@
 > 
 > - Empirical study of a number of factors that influence multi-task learning (MTL).  
 > - Many common assumptions do not seem to be true.
->     - More similar tasks don't necessarily work better together
->     - MTL doesn't necessarily work better when you have less data
->     - Task relationships are not the same between settings.
-> - Task relationships are sensitive to dataset size, network capacity.  
+>     - More similar tasks don't necessarily work better together.  
+>     - MTL doesn't necessarily work better when you have less data.  
+>     - Task relationships are sensitive to dataset size and network capacity.  
+>     - There is no correlation between multi-task and transfer learning.  
 > - Training surface normal prediction task mostly improves the other task's performance.  
 > - Suggest task grouping framework, which assign tasks to networks to maximize performance while keeping the inference time to a given fixed budget.  
 
