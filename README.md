@@ -22,6 +22,16 @@
 
 
 
+> **Acquire and then Adapt: Squeezing out Text-to-Image Model for Image Restoration**  
+> *CVPR 2025*, [arxiv](https://arxiv.org/abs/2504.15159)  
+> Task: image restoration  
+> 
+> - Pre-trained T2I model based restoration approach can enrich low-quality images of any type with realistic details, but requires immense dataset and extensive training to prevent alterations of image content.  
+> - Propose FluxGen: generate diverse realistic high-quality images using Flux with empty prompt, and then filter using NR-IQA metrics.  
+> - Propose FluxIR: light-weighted ControlNet-like adapter, which controls all the MM-DiT block of Flux model using squeeze-and-excitation (SE) layers.  
+
+
+
 > **Uncertainty-guided Perturbation for Image Super-Resolution Diffusion Model**  
 > *CVPR 2025*, [arxiv](https://arxiv.org/abs/2503.18512), [code](https://github.com/LabShuHangGU/UPSR)  
 > Task: single image super-resolution  
