@@ -29,6 +29,7 @@
 > - Pre-trained T2I model based restoration approach can enrich low-quality images of any type with realistic details, but requires immense dataset and extensive training to prevent alterations of image content.  
 > - Propose FluxGen: generate diverse realistic high-quality images using Flux with empty prompt, and then filter using NR-IQA metrics.  
 > - Propose FluxIR: light-weighted ControlNet-like adapter, which controls all the MM-DiT block of Flux model using squeeze-and-excitation (SE) layers.  
+> - Train FluxIR with FluxGen with modified timestep sampling & additional pixel-space loss.  
 
 
 
