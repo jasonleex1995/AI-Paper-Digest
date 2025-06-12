@@ -79,6 +79,17 @@
 
 
 
+> **Transfusion: Predict the Next Token and Diffuse Images with One Multi-Modal Model**  
+> *arXiv 2024*, [arxiv](https://arxiv.org/abs/2408.11039)  
+> Task: multi-modal generation  
+> 
+> - Previous works quantize continuous modalities and train with next-token prediction.  
+> - Propose Transfusion: generate discrete and continuous modalities using a different objective for each modality.  
+> - Use next token prediction for text and diffuion for images.  
+> - For images, use unrestricted (bidirectional) attention.  
+
+
+
 > **Detecting, Explaining, and Mitigating Memorization in Diffusion Models**  
 > *ICLR 2024 Oral*, [arxiv](https://arxiv.org/abs/2407.21720), [review](https://openreview.net/forum?id=84n3UwkH7b), [code](https://github.com/YuxinWenRick/diffusion_memorization)  
 > Task: detect and mitigate memorization in diffusion models  
