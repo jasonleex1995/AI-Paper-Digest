@@ -9,6 +9,17 @@
 
 
 
+> **Augmenting Perceptual Super-Resolution via Image Quality Predictors**  
+> *CVPR 2025*, [arxiv](https://arxiv.org/abs/2504.18524)  
+> Task: single image super-resolution  
+> 
+> - Previous work shows that human feedback (manual human ranking) can improve SR performance.  
+> - However, this approach is not scalable and coarse.  
+> - Use NR-IQA metric (MUSIQ) to replace human feedback.  
+> - Improve perceptual quality using highest-score patch selection & direct optimization.  
+
+
+
 > **Dual Prompting Image Restoration with Diffusion Transformers**  
 > *CVPR 2025*, [arxiv](https://arxiv.org/abs/2504.17825)  
 > Task: image restoration  
