@@ -44,6 +44,16 @@
 
 
 
+> **Progressive Focused Transformer for Single Image Super-Resolution**  
+> *CVPR 2025*, [arxiv](https://arxiv.org/abs/2503.20337), [code](https://github.com/LabShuHangGU/PFT-SR)  
+> Task: single-image super-resolution  
+> 
+> - Previous Transformer-based SR methods use vanilla or sparse self-attention, which still compute attention between query tokens and irrelevant tokens, leading to unnecessary computations.  
+> - Intuition: highly relevant tokens will be consistently similar to each other across layers, so use previous layer's attention maps to identify relevant tokens.  
+> - Propose Progressive Focused Attention (PFA): calculate current layer's PFA maps by the Hadamard product of the previous layer's PFA maps and the current layer's self-attention map, followed by top-k selection to construct sparse attention maps.  
+
+
+
 > **Uncertainty-guided Perturbation for Image Super-Resolution Diffusion Model**  
 > *CVPR 2025*, [arxiv](https://arxiv.org/abs/2503.18512), [code](https://github.com/LabShuHangGU/UPSR)  
 > Task: single image super-resolution  
