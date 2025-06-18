@@ -54,6 +54,16 @@
 
 
 
+> **Exploring Semantic Feature Discrimination for Perceptual Image Super-Resolution and Opinion-Unaware No-Reference Image Quality Assessment**  
+> *CVPR 2025*, [arxiv](https://arxiv.org/abs/2503.19295), [code](https://github.com/GuangluDong0728/SFD)  
+> Task: single-image super-resolution  
+> 
+> - Previous GAN-based SR methods directly discriminate on images without semantic awareness, causing the generated textures to misalign with image semantics.  
+> - Propose Semantic Feature Discrimination (SFD): discriminate multi-scale CLIP semantic features.  
+> - Since previous discriminator-based opinion-unaware no-reference image quality assessment (OU NR-IQA) methods ignore the assessment for semantic, the discriminator trained with SFD achieves better performance on OU NR-IQA.  
+
+
+
 > **Uncertainty-guided Perturbation for Image Super-Resolution Diffusion Model**  
 > *CVPR 2025*, [arxiv](https://arxiv.org/abs/2503.18512), [code](https://github.com/LabShuHangGU/UPSR)  
 > Task: single image super-resolution  
