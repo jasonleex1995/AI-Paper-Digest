@@ -289,75 +289,43 @@
 > **MuLUT: Cooperating Multiple Look-Up Tables for Efficient Image Super-Resolution**  
 > *ECCV 2022*, [paper](https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/1756_ECCV_2022_paper.php), [website](https://mulut.pages.dev/), [code](https://github.com/ddlee-cn/MuLUT)  
 > Task: single-image super-resolution  
-> Increase receptive field size efficiently by using complementary indexing (parallel), hierarchical indexing (cascade), and fine-tuning interpolation values.  
-
+> Increase receptive field size of LUT efficiently by using complementary indexing (parallel), hierarchical indexing (cascade), and fine-tuning interpolation values.  
 
 
 > **Learning to generate line drawings that convey geometry and semantics**  
 > *CVPR 2022*, [arxiv](https://arxiv.org/abs/2203.12691), [website](https://carolineec.github.io/informative_drawings/), [code](https://github.com/carolineec/informative-drawings)  
 > Task: automatic line generation  
-> 
-> - View line drawing generation as an unsupervised image translation problem, which means training models with unpaired data.  
-> - Previous works solely consider preserving photographic appearence through cycle consistency.  
-> - Instead, use 4 losses to improve quality: adversarial loss (LSGAN), geometry loss (pseudo depth map), semantic loss (CLIP), appearance loss (cycle consistency).  
-
+> Line drawing via unpaired image-to-image translation with 4 losses: adversarial loss (LSGAN), geometry loss (pseudo depth map), semantic loss (CLIP), appearance loss (cycle consistency).  
 
 
 > **SDEdit: Guided Image Synthesis and Editing with Stochastic Differential Equations**  
 > *ICLR 2022*, [arxiv](https://arxiv.org/abs/2108.01073), [review](https://openreview.net/forum?id=aBsCjcPu_tE), [website](https://sde-image-editing.github.io/), [code](https://github.com/ermongroup/SDEdit), [summary](https://jasonleex1995.github.io/docs/07_papers/2108.01073.html)  
 > Task: guided image synthesis & editing  
-> 
-> - Previous works on guided image synthesis or editing: conditional GANs or GAN inversions  
-> - Conditional GANs require collecting training images and training per task.  
-> - GAN inversions require task-specific loss design.  
-> - Generate realistic images by adding small noise and denoising with score-based models trained on the target domain.  
-
+> Generate realistic images by adding small noise and denoising with score-based models trained on the target domain.  
 
 
 > **Practical Single-Image Super-Resolution Using Look-Up Table**  
 > *CVPR 2021*, [paper](https://openaccess.thecvf.com/content/CVPR2021/html/Jo_Practical_Single-Image_Super-Resolution_Using_Look-Up_Table_CVPR_2021_paper.html), [code](https://github.com/yhjo09/SR-LUT)  
 > Task: single-image super-resolution  
-> 
-> - Deep learning based SR achieves good performance, but it is difficult to apply in practice without the special hardware (ex. GPU, TPU).  
-> - Propose SR-LUT: LUT-based SR achieving similar runtime but better performance compared to interpolation methods.  
-> - Train lightweight deep SR model with small receptive field, then make LUT using trained model.  
-> - To decrease memory space, save LUT with uniform sampling and inference using interpolation.  
-
+> Practical SR by approximating small receptive field SR model into LUT, achieving similar runtime but better performance compared to interpolation methods.  
 
 
 > **Which Tasks Should Be Learned Together in Multi-task Learning?**  
 > *ICML 2020*, [arxiv](https://arxiv.org/abs/1905.07553), [review](https://openreview.net/forum?id=HJlTpCEKvS), [website](http://taskgrouping.stanford.edu/), [code](https://github.com/tstandley/taskgrouping)  
 > Task: multi-task learning  
-> 
-> - Empirical study of a number of factors that influence multi-task learning (MTL).  
-> - Many common assumptions do not seem to be true.
->     - More similar tasks don't necessarily work better together.  
->     - MTL doesn't necessarily work better when you have less data.  
->     - Task relationships are sensitive to dataset size and network capacity.  
->     - There is no correlation between multi-task and transfer learning.  
-> - Training surface normal prediction task mostly improves the other task's performance.  
-> - Suggest task grouping framework, which assign tasks to networks to maximize performance while keeping the inference time to a given fixed budget.  
-
+> Many common assumptions do not seem to be true: more similar tasks don't necessarily work better together & task relationships are sensitive to dataset size and network capacity.  
 
 
 > **Generalisation in humans and deep neural networks**    
 > *NeurIPS 2018*, [arxiv](https://arxiv.org/abs/1808.08750), [review](https://papers.nips.cc/paper_files/paper/2018/hash/0937fb5864ed06ffb59ae5f9b5ed67a9-Abstract.html), [code](https://github.com/rgeirhos/generalisation-humans-DNNs), [summary](https://jasonleex1995.github.io/docs/07_papers/1808.08750.html)  
 > Task: understanding the differences between DNNs and humans   
-> 
-> - Compare the robustness of humans and DNNs (VGG, GoogLeNet, ResNet) on object recognition under 12 different image distortions.  
-> - Human visual system is more robust than DNNs.  
-> - DNNs generalize so poorly under non-i.i.d. settings.  
-
+> Compared to human visual system, DNNs (VGG, GoogLeNet, ResNet) generalize so poorly under non-i.i.d. settings.  
 
 
 > **Enhanced Deep Residual Networks for Single Image Super-Resolution**  
 > *CVPR 2017 Workshop*, [arxiv](https://arxiv.org/abs/1707.02921), [code](https://github.com/limbee/NTIRE2017)  
 > Task: single-image super-resolution  
-> 
-> - Propose two network architectures: enhanced deep super-resolution network (EDSR) for single-scale & multi-scale deep super-resolution system (MDSR) for multi-scale  
-> - 3 core methods: remove batch normalization layers, increase model size, and use L1 loss.  
-> - Input and output have similar distributions → remove batch normalization layers.  
-> - Increasing model size improves performance, but leads to training instability → use residual scaling.  
+> Optimize network and training for SR: remove batch normalization layer, train with residual scaling and L1 loss.  
 
 
 
