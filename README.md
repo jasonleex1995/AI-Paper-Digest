@@ -286,6 +286,13 @@
 
 
 
+> **MuLUT: Cooperating Multiple Look-Up Tables for Efficient Image Super-Resolution**  
+> *ECCV 2022*, [paper](https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/1756_ECCV_2022_paper.php), [website](https://mulut.pages.dev/), [code](https://github.com/ddlee-cn/MuLUT)  
+> Task: single-image super-resolution  
+> Increase receptive field size efficiently by using complementary indexing (parallel), hierarchical indexing (cascade), and fine-tuning interpolation values.  
+
+
+
 > **Learning to generate line drawings that convey geometry and semantics**  
 > *CVPR 2022*, [arxiv](https://arxiv.org/abs/2203.12691), [website](https://carolineec.github.io/informative_drawings/), [code](https://github.com/carolineec/informative-drawings)  
 > Task: automatic line generation  
@@ -308,7 +315,7 @@
 
 
 > **Practical Single-Image Super-Resolution Using Look-Up Table**  
-> *accept info*, [paper](https://openaccess.thecvf.com/content/CVPR2021/html/Jo_Practical_Single-Image_Super-Resolution_Using_Look-Up_Table_CVPR_2021_paper.html), [code](https://github.com/yhjo09/SR-LUT)  
+> *CVPR 2021*, [paper](https://openaccess.thecvf.com/content/CVPR2021/html/Jo_Practical_Single-Image_Super-Resolution_Using_Look-Up_Table_CVPR_2021_paper.html), [code](https://github.com/yhjo09/SR-LUT)  
 > Task: single-image super-resolution  
 > 
 > - Deep learning based SR achieves good performance, but it is difficult to apply in practice without the special hardware (ex. GPU, TPU).  
@@ -361,7 +368,6 @@ format
 > **paper title**  
 > *accept info*, [arxiv](), [review](), [website](), [code](), [summary]()  
 > Task:  
-> 
-> - super-brief summary
+> super-brief summary
 
 ```
