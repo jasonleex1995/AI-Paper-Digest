@@ -97,6 +97,12 @@
 > - Data-centric approach is effective: fine-tuning CLIP-based models on large-scale datasets containing millions of negated captions.  
 
 
+> **Generative Photography: Scene-Consistent Camera Control for Realistic Text-to-Image Synthesis**  
+> *CVPR 2025 Highlight*, [arxiv](https://arxiv.org/abs/2412.02168), [website](https://generative-photography.github.io/project/), [code](https://github.com/pandayuanyu/generative-photography)  
+> Task: generative photography  
+> Scene-consistent text-to-image generation with camera intrinsics control by fine-tuning a T2V with a differential camera encoder.
+
+
 
 > **Classifier-Free Guidance inside the Attraction Basin May Cause Memorization**  
 > *CVPR 2025*, [arxiv](https://arxiv.org/abs/2411.16738), [code](https://github.com/anubhav1997/mitigating_memorization)  
@@ -228,104 +234,79 @@
 > **Adding Conditional Control to Text-to-Image Diffusion Models**  
 > *ICCV 2023 Oral*, [arxiv](https://arxiv.org/abs/2302.05543), [code](https://github.com/lllyasviel/ControlNet), [summary](https://jasonleex1995.github.io/docs/07_papers/2302.05543.html)  
 > Task: image-based conditional image generation  
-> 
-> - T2I models struggle with fine-grained spatial control.  
-> - Incorporate additional images as conditioning inputs to generate images with spatial control.  
-> - Fine-tuning a trainable copy of a T2I diffusion model connected with zero convolution.  
-
+> Fine-tune a trainable copy of a T2I diffusion model, connected via zero convolution, to achieve fine-grained spatial control using additional images as conditioning inputs.
 
 
 > **Learning Universal Policies via Text-Guided Video Generation**  
 > *NeurIPS 2023 Spotlight*, [arxiv](https://arxiv.org/abs/2302.00111), [review](https://openreview.net/forum?id=bo8q5MRcwy), [website](https://universal-policy.github.io/unipi/)  
 > Task: robot manipulation  
-> 
-> - Challenges of training robots: environmental diversity due to joint modeling of space & controls.  
-> - Propose Universal Policy (UniPi): cast the sequential decision making problem as a text-conditioned video generation problem.  
-> - Plans actions by generating a video for a desired goal, then infers control actions using an inverse dynamics model.  
-
+> Plans actions by generating a goal-directed video using a T2V diffusion model, and then infers control actions from the video using an inverse dynamics model. 
 
 
 > **DreamBooth: Fine Tuning Text-to-Image Diffusion Models for Subject-Driven Generation**  
 > *CVPR 2023 Award Candidate*, [arxiv](https://arxiv.org/abs/2208.12242), [website](https://dreambooth.github.io/), [code](https://github.com/google/dreambooth), [summary](https://jasonleex1995.github.io/docs/07_papers/2208.12242.html)  
 > Task: subject-driven image generation  
-> 
-> - Recently developed large T2I diffusion models can generate high-quality and diverse photorealistic images.  
-> - However, these models lack the ability to mimic the appearance of subjects in a given reference set.  
-> - Generate novel photorealistic images of the subject contextualized in different scenes via fine-tuning with rare tokens and class-specific prior preservation loss.  
-
+> Generate novel photorealistic images of the subject contextualized in different scenes via fine-tuning with rare tokens and class-specific prior preservation loss.
 
 
 > **Prompt-to-Prompt Image Editing with Cross Attention Control**  
 > *ICLR 2023 Spotlight*, [arxiv](https://arxiv.org/abs/2208.01626), [review](https://openreview.net/forum?id=_CDixzkzeyb), [website](https://prompt-to-prompt.github.io/), [code](https://github.com/google/prompt-to-prompt/), [summary](https://jasonleex1995.github.io/docs/07_papers/2208.01626.html)  
 > Task: text-driven image editing  
-> 
-> - Previous works use spatial mask to edit an image.  
-> - These methods generate unsatisfactory results caused by ignoring the original structure and content within the masked region.  
-> - Propose Prompt-to-Propmt, a text-driven image editing by injecting the cross-attention maps of original prompt to the cross-attention maps of edited prompt.  
-
+> Text-driven image editing by injecting the cross-attention maps of original prompt to the cross-attention maps of edited prompt.
 
 
 > **An Image is Worth One Word: Personalizing Text-to-Image Generation using Textual Inversion**  
 > *ICLR 2023 Spotlight*, [arxiv](https://arxiv.org/abs/2208.01618), [review](https://openreview.net/forum?id=NAQvF08TcyG), [website](https://textual-inversion.github.io/), [code](https://github.com/rinongal/textual_inversion), [summary](https://jasonleex1995.github.io/docs/07_papers/2208.01618.html)  
 > Task: personalized text-to-image generation  
-> 
-> - Recently, large-scale T2I models have demonstrated an unprecedented capability to reason over natural language descriptions.  
-> - However, generating a desired target, such as user-specific concept, through text is quite difficult.  
-> - Training T2I models have several limitations.  
-> - Generate novel photorealistic images of the subject via optimizing only a single word embedding.  
-
+> Generate novel photorealistic images of the subject via optimizing only a single word embedding.
 
 
 > **Do As I Can, Not As I Say: Grounding Language in Robotic Affordances**  
 > *CoRL 2022 Oral*, [arxiv](https://arxiv.org/abs/2204.01691), [review](https://openreview.net/forum?id=bdHkMjBJG_w), [website](https://say-can.github.io/), [code](https://github.com/google-research/google-research/tree/master/saycan)  
 > Task: robot manipulation and navigation  
-> 
-> - How can we enable robots to perform complex tasks in the real world?  
-> - Propose SayCan: given pre-trained low-level skills, an LLM (Say) determines useful actions for a high-level goal, and a learned affordance function (Can) determines whether action is possible to execute in the current state.  
-> - Only train affordance function using reinforcement learning (RL).  
-
+> Enable robots to perform complex real-world tasks by selecting appropriate low-level skills through high-level planning using LLM + affordance model.
 
 
 > **MuLUT: Cooperating Multiple Look-Up Tables for Efficient Image Super-Resolution**  
 > *ECCV 2022*, [paper](https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/1756_ECCV_2022_paper.php), [website](https://mulut.pages.dev/), [code](https://github.com/ddlee-cn/MuLUT)  
 > Task: single-image super-resolution  
-> Increase receptive field size of LUT efficiently by using complementary indexing (parallel), hierarchical indexing (cascade), and fine-tuning interpolation values.  
+> Increase receptive field size of LUT efficiently by using complementary indexing (parallel), hierarchical indexing (cascade), and fine-tuning interpolation values.
 
 
 > **Learning to generate line drawings that convey geometry and semantics**  
 > *CVPR 2022*, [arxiv](https://arxiv.org/abs/2203.12691), [website](https://carolineec.github.io/informative_drawings/), [code](https://github.com/carolineec/informative-drawings)  
 > Task: automatic line generation  
-> Line drawing via unpaired image-to-image translation with 4 losses: adversarial loss (LSGAN), geometry loss (pseudo depth map), semantic loss (CLIP), appearance loss (cycle consistency).  
+> Line drawing via unpaired image-to-image translation with 4 losses: adversarial loss (LSGAN), geometry loss (pseudo depth map), semantic loss (CLIP), appearance loss (cycle consistency).
 
 
 > **SDEdit: Guided Image Synthesis and Editing with Stochastic Differential Equations**  
 > *ICLR 2022*, [arxiv](https://arxiv.org/abs/2108.01073), [review](https://openreview.net/forum?id=aBsCjcPu_tE), [website](https://sde-image-editing.github.io/), [code](https://github.com/ermongroup/SDEdit), [summary](https://jasonleex1995.github.io/docs/07_papers/2108.01073.html)  
 > Task: guided image synthesis & editing  
-> Generate realistic images by adding small noise and denoising with score-based models trained on the target domain.  
+> Generate realistic images by adding small noise and denoising with score-based models trained on the target domain.
 
 
 > **Practical Single-Image Super-Resolution Using Look-Up Table**  
 > *CVPR 2021*, [paper](https://openaccess.thecvf.com/content/CVPR2021/html/Jo_Practical_Single-Image_Super-Resolution_Using_Look-Up_Table_CVPR_2021_paper.html), [code](https://github.com/yhjo09/SR-LUT)  
 > Task: single-image super-resolution  
-> Practical SR by approximating small receptive field SR model into LUT, achieving similar runtime but better performance compared to interpolation methods.  
+> Practical SR by approximating small receptive field SR model into LUT, achieving similar runtime but better performance compared to interpolation methods.
 
 
 > **Which Tasks Should Be Learned Together in Multi-task Learning?**  
 > *ICML 2020*, [arxiv](https://arxiv.org/abs/1905.07553), [review](https://openreview.net/forum?id=HJlTpCEKvS), [website](http://taskgrouping.stanford.edu/), [code](https://github.com/tstandley/taskgrouping)  
 > Task: multi-task learning  
-> Many common assumptions do not seem to be true: more similar tasks don't necessarily work better together & task relationships are sensitive to dataset size and network capacity.  
+> Many common assumptions do not seem to be true: more similar tasks don't necessarily work better together & task relationships are sensitive to dataset size and network capacity.
 
 
 > **Generalisation in humans and deep neural networks**    
 > *NeurIPS 2018*, [arxiv](https://arxiv.org/abs/1808.08750), [review](https://papers.nips.cc/paper_files/paper/2018/hash/0937fb5864ed06ffb59ae5f9b5ed67a9-Abstract.html), [code](https://github.com/rgeirhos/generalisation-humans-DNNs), [summary](https://jasonleex1995.github.io/docs/07_papers/1808.08750.html)  
 > Task: understanding the differences between DNNs and humans   
-> Compared to human visual system, DNNs (VGG, GoogLeNet, ResNet) generalize so poorly under non-i.i.d. settings.  
+> Compared to human visual system, DNNs (VGG, GoogLeNet, ResNet) generalize so poorly under non-i.i.d. settings.
 
 
 > **Enhanced Deep Residual Networks for Single Image Super-Resolution**  
 > *CVPR 2017 Workshop*, [arxiv](https://arxiv.org/abs/1707.02921), [code](https://github.com/limbee/NTIRE2017)  
 > Task: single-image super-resolution  
-> Optimize network and training for SR: remove batch normalization layer, train with residual scaling and L1 loss.  
+> Optimize network and training for SR: remove batch normalization layer, train with residual scaling and L1 loss.
 
 
 
