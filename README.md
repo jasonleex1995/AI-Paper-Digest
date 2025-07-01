@@ -221,6 +221,13 @@
 
 
 
+> **Implicit Diffusion Models for Continuous Super-Resolution**  
+> *CVPR 2023*, [arxiv](https://arxiv.org/abs/2303.16491), [code](https://github.com/Ree1s/IDM)  
+> Task: single-image super-resolution  
+> Continuous image super-resolution by replacing the U-Net decoder with an implicit neural representation and conditioning on multi-resolution LR features.
+
+
+
 > **Diffusion Policy: Visuomotor Policy Learning via Action Diffusion**  
 > *RSS 2023*, [arxiv](https://arxiv.org/abs/2303.04137), [website](https://diffusion-policy.cs.columbia.edu/), [code](https://github.com/real-stanford/diffusion_policy)  
 > Task: robot manipulation via behavior cloning  
