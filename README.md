@@ -97,6 +97,13 @@
 > - Data-centric approach is effective: fine-tuning CLIP-based models on large-scale datasets containing millions of negated captions.  
 
 
+
+> **Reconstruction vs. Generation: Taming Optimization Dilemma in Latent Diffusion Models**  
+> *CVPR 2025 Highlight*, [arxiv](https://arxiv.org/abs/2501.01423), [code](https://github.com/hustvl/LightningDiT)  
+> Task: image generation  
+> Mitigate the reconstruction-generation trade-off in LDMs by aligning the VAE latent space with vision foundation models, which promotes spread-out latent distribution.
+
+
 > **Generative Photography: Scene-Consistent Camera Control for Realistic Text-to-Image Synthesis**  
 > *CVPR 2025 Highlight*, [arxiv](https://arxiv.org/abs/2412.02168), [website](https://generative-photography.github.io/project/), [code](https://github.com/pandayuanyu/generative-photography)  
 > Task: generative photography  
@@ -225,7 +232,6 @@
 > *CVPR 2023*, [arxiv](https://arxiv.org/abs/2303.16491), [code](https://github.com/Ree1s/IDM)  
 > Task: single-image super-resolution  
 > Continuous image super-resolution by replacing the U-Net decoder with an implicit neural representation and conditioning on multi-resolution LR features.
-
 
 
 > **Diffusion Policy: Visuomotor Policy Learning via Action Diffusion**  
