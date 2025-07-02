@@ -230,12 +230,8 @@
 
 > **Diffusion Policy: Visuomotor Policy Learning via Action Diffusion**  
 > *RSS 2023*, [arxiv](https://arxiv.org/abs/2303.04137), [website](https://diffusion-policy.cs.columbia.edu/), [code](https://github.com/real-stanford/diffusion_policy)  
-> Task: robot manipulation via behavior cloning  
-> 
-> - Due to unique nature of predicting robot actions (ex. multimodal action distributions, sequential correlation, requirement of high precision), policy learning from demonstration is more challenging than other supervised learning problems.  
-> - Diffusion models can represent multimodal distributions, scale to high-dimension output spaces, and achieve stable training while maintaining expressivity.  
-> - Propose Diffusion policy, which is conditioned on visual representation and predicts high-dimensional action sequences.
-
+> Task: robot manipulation
+> Diffusion formulation for visuomotor policy, which predicts high-dimensional action sequences given visual representation, works effectively for real-world robot control.
 
 
 > **Adding Conditional Control to Text-to-Image Diffusion Models**  
@@ -314,6 +310,12 @@
 > *CVPR 2017 Workshop*, [arxiv](https://arxiv.org/abs/1707.02921), [code](https://github.com/limbee/NTIRE2017)  
 > Task: single-image super-resolution  
 > Optimize network and training for SR: remove batch normalization layer, train with residual scaling and L1 loss.
+
+
+> **Auto-Encoding Variational Bayes**  
+> *ICLR 2014 Oral*, [arxiv](https://arxiv.org/abs/1312.6114), [review](https://openreview.net/forum?id=33X9fd2-9FyZd), [summary](https://jasonleex1995.github.io/docs/07_papers/1312.6114.html)  
+> Task: image generation  
+> Train directed probabilistic models by maximizing variational lower bound with reparameterization trick for efficient gradient-based optimization.
 
 
 
