@@ -186,6 +186,14 @@
 
 
 
+> **Arbitrary-Scale Image Generation and Upsampling using Latent Diffusion Model and Implicit Neural Decoder**  
+> *CVPR 2024*, [arxiv](https://arxiv.org/abs/2403.10255), [code](https://github.com/zhenshij/arbitrary-scale-diffusion)  
+> Task: image generation, single-image super-resolution  
+> Arbitrary-scale image generation using LDM with implicit neural decoder on VAE, and arbitrary-scale super-resolution by conditioning the diffusion process through concatenation of low-resolution features with the noisy latent.
+
+
+
+
 > **AnomalyCLIP: Object-agnostic Prompt Learning for Zero-shot Anomaly Detection**  
 > *ICLR 2024*, [arxiv](https://arxiv.org/abs/2310.18961), [review](https://openreview.net/forum?id=buC4E91xZE), [code](https://github.com/zqhang/AnomalyCLIP), [summary](https://jasonleex1995.github.io/docs/07_papers/2310.18961.html)  
 > Task: zero-shot anomaly detection (ZSAD)  
