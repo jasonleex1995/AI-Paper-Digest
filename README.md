@@ -326,6 +326,12 @@
 > Optimize network and training for SR: remove batch normalization layer, train with residual scaling and L1 loss.
 
 
+> **Deep Unsupervised Learning using Nonequilibrium Thermodynamics**  
+> *accept info*, [arxiv](https://arxiv.org/abs/1503.03585), [code](https://github.com/Sohl-Dickstein/Diffusion-Probabilistic-Models), [summary](https://jasonleex1995.github.io/docs/07_papers/1503.03585.html)  
+> Task: image generation  
+> Tractable & flexible probabilistic model by learning the reverse of a forward diffusion process.
+
+
 > **NICE: Non-linear Independent Components Estimation**  
 > *ICLR 2015 Workshop*, [arxiv](https://arxiv.org/abs/1410.8516), [code](https://github.com/laurent-dinh/nice), [summary](https://jasonleex1995.github.io/docs/07_papers/1410.8516.html)  
 > Task: image generation  
