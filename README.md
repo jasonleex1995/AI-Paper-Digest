@@ -326,6 +326,12 @@
 > Optimize network and training for SR: remove batch normalization layer, train with residual scaling and L1 loss.
 
 
+> **NICE: Non-linear Independent Components Estimation**  
+> *ICLR 2015 Workshop*, [arxiv](https://arxiv.org/abs/1410.8516), [code](https://github.com/laurent-dinh/nice), [summary](https://jasonleex1995.github.io/docs/07_papers/1410.8516.html)  
+> Task: image generation  
+> Maximize exact log-likelihood via a change of variables, using a carefully designed invertible transformation with a tractable Jacobian.
+
+
 > **Generative Adversarial Networks**  
 > *NIPS 2014*, [arxiv](https://arxiv.org/abs/1406.2661), [review](https://papers.nips.cc/paper_files/paper/2014/hash/f033ed80deb0234979a61f95710dbe25-Abstract.html), [code](https://github.com/goodfeli/adversarial), [summary](https://jasonleex1995.github.io/docs/07_papers/1406.2661.html)  
 > Task: image generation  
