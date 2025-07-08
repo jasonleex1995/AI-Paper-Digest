@@ -326,6 +326,12 @@
 > Optimize network and training for SR: remove batch normalization layer, train with residual scaling and L1 loss.
 
 
+> **Generative Adversarial Networks**  
+> *NIPS 2014*, [arxiv](https://arxiv.org/abs/1406.2661), [review](https://papers.nips.cc/paper_files/paper/2014/hash/f033ed80deb0234979a61f95710dbe25-Abstract.html), [code](https://github.com/goodfeli/adversarial), [summary](https://jasonleex1995.github.io/docs/07_papers/1406.2661.html)  
+> Task: image generation  
+> Train generative models through adversarial training, without requiring explicit likelihood estimation.
+
+
 > **Auto-Encoding Variational Bayes**  
 > *ICLR 2014 Oral*, [arxiv](https://arxiv.org/abs/1312.6114), [review](https://openreview.net/forum?id=33X9fd2-9FyZd), [summary](https://jasonleex1995.github.io/docs/07_papers/1312.6114.html)  
 > Task: image generation  
