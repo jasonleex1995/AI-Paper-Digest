@@ -309,6 +309,12 @@
 > Generate realistic images by adding small noise and denoising with score-based models trained on the target domain.
 
 
+> **Learning Continuous Image Representation with Local Implicit Image Function**  
+> *accept info*, [arxiv](https://arxiv.org/abs/2012.09161), [website](https://yinboc.github.io/liif/), [code](https://github.com/yinboc/liif)  
+> Task: single-image super-resolution  
+> Learn a continuous image representation that enables arbitrary super-resolution using a coordinate-based decoder.
+
+
 > **Practical Single-Image Super-Resolution Using Look-Up Table**  
 > *CVPR 2021*, [paper](https://openaccess.thecvf.com/content/CVPR2021/html/Jo_Practical_Single-Image_Super-Resolution_Using_Look-Up_Table_CVPR_2021_paper.html), [code](https://github.com/yhjo09/SR-LUT)  
 > Task: single-image super-resolution  
