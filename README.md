@@ -155,6 +155,13 @@
 
 
 
+> **Image Neural Field Diffusion Models**  
+> *CVPR 2024 Highlight*, [arxiv](https://arxiv.org/abs/2406.07480), [website](https://yinboc.github.io/infd/), [code](https://github.com/yinboc/infd)  
+> Task: image generation  
+> Any-resolution image generation using a latent diffusion model trained on neural field representations via a neural field autoencoder.
+
+
+
 > **Identity Decoupling for Multi-Subject Personalization of Text-to-Image Models**  
 > *NeurIPS 2024*, [arxiv](https://arxiv.org/abs/2404.04243), [review](https://openreview.net/forum?id=tEEpVPDaRf), [website](https://mudi-t2i.github.io/), [code](https://github.com/agwmon/MuDI)  
 > Task: multi-subject personalization  
