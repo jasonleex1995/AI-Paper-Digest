@@ -339,6 +339,12 @@
 > Optimize network and training for SR: remove batch normalization layer, train with residual scaling and L1 loss.
 
 
+> **f-GAN: Training Generative Neural Samplers using Variational Divergence Minimization**  
+> *NIPS 2016 Spotlight*, [arxiv](https://arxiv.org/abs/1606.00709), [review](https://papers.nips.cc/paper/2016/hash/cedebb6e872f539bef8c3f919874e9d7-Abstract.html), [summary](https://jasonleex1995.github.io/docs/07_papers/1606.00709.html)  
+> Task: image generation  
+> Generalize GAN training objectives for all f-divergences using variational lower bound.
+
+
 > **Deep Unsupervised Learning using Nonequilibrium Thermodynamics**  
 > *accept info*, [arxiv](https://arxiv.org/abs/1503.03585), [code](https://github.com/Sohl-Dickstein/Diffusion-Probabilistic-Models), [summary](https://jasonleex1995.github.io/docs/07_papers/1503.03585.html)  
 > Task: image generation  
