@@ -12,12 +12,7 @@
 > **Augmenting Perceptual Super-Resolution via Image Quality Predictors**  
 > *CVPR 2025*, [arxiv](https://arxiv.org/abs/2504.18524)  
 > Task: single image super-resolution  
-> 
-> - Previous work shows that human feedback (manual human ranking) can improve SR performance.  
-> - However, this approach is not scalable and coarse.  
-> - Use NR-IQA metric (MUSIQ) to replace human feedback.  
-> - Improve perceptual quality using highest-score patch selection & direct optimization.  
-
+> Improve the perceptual quality of SR using NR-IQA metric (MUSIQ) for patch selection and direct optimization.
 
 
 > **Dual Prompting Image Restoration with Diffusion Transformers**  
@@ -102,6 +97,12 @@
 > *CVPR 2025 Highlight*, [arxiv](https://arxiv.org/abs/2501.01423), [code](https://github.com/hustvl/LightningDiT)  
 > Task: image generation  
 > Mitigate the reconstruction-generation trade-off in LDMs by aligning the VAE latent space with vision foundation models, which promotes spread-out latent distribution.
+
+
+> **Arbitrary-steps Image Super-resolution via Diffusion Inversion**  
+> *CVPR 2025*, [arxiv](https://arxiv.org/abs/2412.09013), [code](https://github.com/zsyOAOA/InvSR)  
+> Task: single-image super-resolution  
+> Diffusion inversion for SR by training a noise prediction network, enabling pre-trained diffusion models to reconstruct HR image from noise-perturbed LR input.
 
 
 > **Generative Photography: Scene-Consistent Camera Control for Realistic Text-to-Image Synthesis**  
