@@ -207,48 +207,28 @@
 > Arbitrary-scale image generation using LDM with implicit neural decoder on VAE, and arbitrary-scale super-resolution by conditioning the diffusion process through concatenation of low-resolution features with the noisy latent.
 
 
-
-
 > **AnomalyCLIP: Object-agnostic Prompt Learning for Zero-shot Anomaly Detection**  
 > *ICLR 2024*, [arxiv](https://arxiv.org/abs/2310.18961), [review](https://openreview.net/forum?id=buC4E91xZE), [code](https://github.com/zqhang/AnomalyCLIP), [summary](https://jasonleex1995.github.io/docs/07_papers/2310.18961.html)  
 > Task: zero-shot anomaly detection (ZSAD)  
-> 
-> - Previous works use CLIP with object-aware text prompts.  
-> - Even though the foreground object semantics can be completely different, anomaly patterns remain quite similar.  
-> - Thus, use CLIP with learnable object-agnostic text prompts.  
-
+> Since anomaly patterns remain quite similar regardless of foreground object semantics, use CLIP with learnable object-agnostic text prompts.
 
 
 > **Tiny and Efficient Model for the Edge Detection Generalization**  
 > *ICCV 2023 Workshop*, [arxiv](https://arxiv.org/abs/2308.06468), [code](https://github.com/xavysp/TEED)   
 > Task: edge detection  
-> 
-> - Propose simple, efficient, and robust CNN model: Tiny and Efficient Edge Detector (TEED).  
-> - TEED generates thinner and clearer edge-maps, but requires a paired dataset for training.  
-> - Two core methods: architecture (edge fusion module) & loss (weighted cross-entropy, tracing loss).  
-> - Weighted cross-entropy helps to detect as many edges as possible, while tracing loss helps to predict thinner and clearer edge-maps.  
-
+> Propose Tiny and Efficient Edge Detector (TEED), which generates thinner and clearer edge-maps by training the model with paired dataset using weighted cross-entropy and tracing loss.
 
 
 > **RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control**  
 > *CoRL 2023*, [arxiv](https://arxiv.org/abs/2307.15818), [review](https://openreview.net/forum?id=XMQgwiJ7KSX), [website](https://robotics-transformer2.github.io/)  
 > Task: robot manipulation  
-> 
-> - Previous works primarily used LLMs and VLMs for high-level robot planning.  
-> - Propose RT-2, which directly integrates large pre-trained VLMs into low-level robot control.
-> - Two core methods: tokenizing the actions into text tokens & co-fine-tuning robotics data with the original web data.  
-
+> Propose RT-2, which directly integrates large pre-trained VLMs into low-level robot control by tokenizing the actions into text tokens & co-fine-tuning robotics data with the original web data.
 
 
 > **Understanding and Mitigating Copying in Diffusion Models**  
 > *NeurIPS 2023*, [arxiv](https://arxiv.org/abs/2305.20086), [review](https://openreview.net/forum?id=HtMXRGbUMt), [code](https://github.com/somepago/DCR)  
 > Task: analyze and mitigate memorization in T2I diffusion models  
-> 
-> - Previous works show that duplicate images in the training set cause memorization in diffusion models.  
-> - Reveals that text conditioning plays a major role in memorization.  
-> - Inference-time mitigation: use random token replacement or addition strategy, where random tokens are randomly added or replaced into the text prompt.  
-> - Train-time mitigation: use multiple caption strategy, where each image has diverse captions and caption is randomly sampled during training.  
-
+> Since text conditioning plays a major role in memorization, propose train-time mitiagation (use multiple captions) and inference-time mitigation (use random token replacement or addition).
 
 
 > **Implicit Diffusion Models for Continuous Super-Resolution**  
