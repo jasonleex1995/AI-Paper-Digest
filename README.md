@@ -334,6 +334,12 @@
 > Compared to human visual system, DNNs (VGG, GoogLeNet, ResNet) generalize so poorly under non-i.i.d. settings.
 
 
+> **The Perception-Distortion Tradeoff**  
+> *CVPR 2018 Oral*, [arxiv](https://arxiv.org/abs/1711.06077)  
+> Task: image restoration  
+> For non-invertible degradation, perception-distortion tradeoff always exists.
+
+
 > **Enhanced Deep Residual Networks for Single Image Super-Resolution**  
 > *CVPR 2017 Workshop*, [arxiv](https://arxiv.org/abs/1707.02921), [code](https://github.com/limbee/NTIRE2017)  
 > Task: single-image super-resolution  
