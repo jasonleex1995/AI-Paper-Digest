@@ -184,6 +184,13 @@
 
 
 
+> **Measuring Style Similarity in Diffusion Models**  
+> *ECCV 2024*, [arxiv](https://arxiv.org/abs/2404.01292), [website](https://somepago.github.io/csd.html), [code](https://github.com/learn2phoenix/CSD)  
+> Task: image style retrieval  
+> In contrast to existing feature extractors that prioritize image content, propose Contrastive Style Descriptors (CSD), specifically designed to extract image style.
+
+
+
 > **Unveiling and Mitigating Memorization in Text-to-image Diffusion Models through Cross Attention**  
 > *ECCV 2024*, [arxiv](https://arxiv.org/abs/2403.11052), [code](https://github.com/renjie3/MemAttn)  
 > Task: detect and mitigate memorization in text-to-image diffusion models  
