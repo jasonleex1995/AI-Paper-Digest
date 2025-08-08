@@ -303,6 +303,12 @@
 > Learn a continuous image representation that enables arbitrary super-resolution using a coordinate-based decoder.
 
 
+> **Tackling the Ill-Posedness of Super-Resolution Through Adaptive Target Generation**  
+> *CVPR 2021*, [paper](https://openaccess.thecvf.com/content/CVPR2021/html/Jo_Tackling_the_Ill-Posedness_of_Super-Resolution_Through_Adaptive_Target_Generation_CVPR_2021_paper.html), [code](https://github.com/yhjo09/AdaTarget)  
+> Task: single-image super-resolution  
+> Modeling the one-to-many problem in SR by creating an adaptive target, which is an affine transformed version of the HR patch designed to be closer to the SR patch.
+
+
 > **Practical Single-Image Super-Resolution Using Look-Up Table**  
 > *CVPR 2021*, [paper](https://openaccess.thecvf.com/content/CVPR2021/html/Jo_Practical_Single-Image_Super-Resolution_Using_Look-Up_Table_CVPR_2021_paper.html), [code](https://github.com/yhjo09/SR-LUT)  
 > Task: single-image super-resolution  
