@@ -156,6 +156,12 @@
 
 
 
+> **DiffuseHigh: Training-free Progressive High-Resolution Image Synthesis through Structure Guidance**  
+> *AAAI 2025*, [arxiv](https://arxiv.org/abs/2406.18459), [website](https://yhyun225.github.io/DiffuseHigh/), [code](https://github.com/yhyun225/DiffuseHigh)  
+> Task: higher-resolution image generation  
+> Training-free higher-resolution image generation via input image sharpening and Discrete Wavelet Transform (DWT)-based structural guidance.
+
+
 > **Image Neural Field Diffusion Models**  
 > *CVPR 2024 Highlight*, [arxiv](https://arxiv.org/abs/2406.07480), [website](https://yinboc.github.io/infd/), [code](https://github.com/yinboc/infd)  
 > Task: image generation  
