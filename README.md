@@ -196,15 +196,11 @@
 > In contrast to existing feature extractors that prioritize image content, propose Contrastive Style Descriptors (CSD), specifically designed to extract image style.
 
 
-
 > **Unveiling and Mitigating Memorization in Text-to-image Diffusion Models through Cross Attention**  
 > *ECCV 2024*, [arxiv](https://arxiv.org/abs/2403.11052), [code](https://github.com/renjie3/MemAttn)  
 > Task: detect and mitigate memorization in text-to-image diffusion models  
 > 
-> - Since memorized images are usually triggered by the memorized text prompts, cross attention can exhibit unique behaviors specific to memorization.  
-> - Memorized samples tend to allocate most of the attention to specific tokens throughout all the diffusion steps, where non-memorized samples have more dispersed attention distribution.  
-> - Thus, use entropy of attention to detect and mitigate memorization.  
-
+> - Since memorized images are usually triggered by the specific text tokens, use entropy of cross-attention to detect and mitigate memorization.  
 
 
 > **Arbitrary-Scale Image Generation and Upsampling using Latent Diffusion Model and Implicit Neural Decoder**  
